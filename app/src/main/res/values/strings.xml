@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LavasmartV1</string>
+    <string name="sign_up">sign up</string>
+    <string name="title_activity_user_type_">UserType_Activity</string>
+</resources>

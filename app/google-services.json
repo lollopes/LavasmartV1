@@ -1,0 +1,175 @@
+{
+  "project_info": {
+    "project_number": "968031841230",
+    "firebase_url": "https://gilgamesh-d6917.firebaseio.com",
+    "project_id": "gilgamesh-d6917",
+    "storage_bucket": "gilgamesh-d6917.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968031841230:android:08ca8e0c2a811817",
+        "android_client_info": {
+          "package_name": "ca.concordia.gilgamesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968031841230-frs9hpc8onpiru2qd6u3775tooumrc91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.concordia.gilgamesh",
+            "certificate_hash": "3e2a84cfaef1e1cef2382cfed92b9da84b16dc27"
+          }
+        },
+        {
+          "client_id": "968031841230-sncbkmi551gkmom3fd6emtdugi7sle9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.concordia.gilgamesh",
+            "certificate_hash": "2e03570ff7a43f8e41de086c45f53c321d513714"
+          }
+        },
+        {
+          "client_id": "968031841230-hmpkugu55b4kcfc4mpe79lffb966v3pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.concordia.gilgamesh",
+            "certificate_hash": "06c26c091eaba0b7265bf68b10578dd9d040eb8f"
+          }
+        },
+        {
+          "client_id": "968031841230-bhrfb64fn0bg3teoovbvsp1fihr8eo0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.concordia.gilgamesh",
+            "certificate_hash": "eaa7eceaf9c341a13191b9a3a5001faa4393a602"
+          }
+        },
+        {
+          "client_id": "968031841230-db0l4e2p6ocu6sn0us1lc8br18rmh09b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.concordia.gilgamesh",
+            "certificate_hash": "e8060d14657745cb24c5eda49e4bb4c9576ae76f"
+          }
+        },
+        {
+          "client_id": "968031841230-dqbcoqfo328al4oadn9hbci0kbao01l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQd_jMkDW9MHubm-tr7dBScPFGVuJvE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968031841230-dqbcoqfo328al4oadn9hbci0kbao01l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968031841230:android:4c3fe54bc5cbec9b",
+        "android_client_info": {
+          "package_name": "com.example.lollo.lavasmartv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968031841230-2f3dup4ii89g2s8jvo3h0ouk3rpvsjt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lollo.lavasmartv1",
+            "certificate_hash": "3e2a84cfaef1e1cef2382cfed92b9da84b16dc27"
+          }
+        },
+        {
+          "client_id": "968031841230-dqbcoqfo328al4oadn9hbci0kbao01l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQd_jMkDW9MHubm-tr7dBScPFGVuJvE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968031841230-dqbcoqfo328al4oadn9hbci0kbao01l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968031841230:android:fcfef757a832647b",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968031841230-h3a03de6li5k99haejpkcncc29kqbp8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.quickstart.database",
+            "certificate_hash": "06c26c091eaba0b7265bf68b10578dd9d040eb8f"
+          }
+        },
+        {
+          "client_id": "968031841230-dqbcoqfo328al4oadn9hbci0kbao01l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQd_jMkDW9MHubm-tr7dBScPFGVuJvE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968031841230-dqbcoqfo328al4oadn9hbci0kbao01l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
