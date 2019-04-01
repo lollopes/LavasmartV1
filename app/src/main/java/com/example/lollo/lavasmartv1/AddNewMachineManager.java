@@ -31,7 +31,6 @@ public class AddNewMachineManager extends AppCompatActivity {
             }
         });
 
-
     }
 
     @Override
