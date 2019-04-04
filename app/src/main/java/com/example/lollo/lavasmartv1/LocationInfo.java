@@ -36,8 +36,5 @@ public class LocationInfo extends AppCompatActivity {
             }
         });
 
-
-
-
     }
 }

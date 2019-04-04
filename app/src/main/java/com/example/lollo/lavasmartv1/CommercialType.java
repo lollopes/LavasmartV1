@@ -1,7 +1,5 @@
 package com.example.lollo.lavasmartv1;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,15 +24,11 @@ public class CommercialType extends AppCompatActivity
             public void onClick(View v)
             {
                 TenantFragment tenantFragment = new TenantFragment();
-                tenantFragment.show(getSupportFragmentManager(),"Tenanat Fragment");
+                tenantFragment.show(getSupportFragmentManager(),"Tenant Fragment");
 
 
             }
         });
-
-
-
-
 
         manager_button = findViewById(R.id.Manager_Button);
         manager_button.setOnClickListener(new View.OnClickListener()
@@ -42,7 +36,7 @@ public class CommercialType extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                startActivity(new Intent(CommercialType.this,CreateLocation.class));
+                startActivity(new Intent(CommercialType.this, OwnedLocations.class));
             }
         });
 

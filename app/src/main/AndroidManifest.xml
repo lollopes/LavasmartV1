@@ -21,7 +21,7 @@
         <activity android:name=".UserType" />
         <activity android:name=".AddNewMachine" />
         <activity android:name=".CommercialType" />
-        <activity android:name=".CreateLocation" />
+        <activity android:name=".OwnedLocations" />
         <activity android:name=".LocationInfo" />
         <activity android:name=".MachineList" />
 
