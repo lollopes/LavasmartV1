@@ -10,8 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class TenantFragment extends DialogFragment
-{
+public class TenantFragment extends DialogFragment {
     Button addLocationButton;
 
 
@@ -20,18 +19,14 @@ public class TenantFragment extends DialogFragment
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
 
-        View view = inflater.inflate(R.layout.tenantfragment,container,false);
+        View view = inflater.inflate(R.layout.tenantfragment, container, false);
         addLocationButton = view.findViewById(R.id.AddLocation_Button);
-        addLocationButton.setOnClickListener(new View.OnClickListener()
-        {
+        addLocationButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(getActivity(),MachineList.class));
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), MachineList.class));
             }
         });
-
-
 
 
         return view;

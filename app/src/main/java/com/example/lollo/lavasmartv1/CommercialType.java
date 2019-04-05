@@ -6,36 +6,30 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CommercialType extends AppCompatActivity
-{
+public class CommercialType extends AppCompatActivity {
     Button tenant_button;
     Button manager_button;
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.commercialtype);
         tenant_button = findViewById(R.id.Tenant_Button);
-        tenant_button.setOnClickListener(new View.OnClickListener()
-        {
+        tenant_button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
                 TenantFragment tenantFragment = new TenantFragment();
-                tenantFragment.show(getSupportFragmentManager(),"Tenant Fragment");
+                tenantFragment.show(getSupportFragmentManager(), "Tenant Fragment");
 
 
             }
         });
 
         manager_button = findViewById(R.id.Manager_Button);
-        manager_button.setOnClickListener(new View.OnClickListener()
-        {
+        manager_button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
                 startActivity(new Intent(CommercialType.this, OwnedLocations.class));
             }
         });

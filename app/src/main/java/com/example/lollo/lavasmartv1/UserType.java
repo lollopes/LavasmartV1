@@ -10,31 +10,30 @@ public class UserType extends AppCompatActivity {
 
     private Button homeUserButton;
     private Button commercialUserButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.usertype);
 
         homeUserButton = findViewById(R.id.HomeUser_Button);
-        commercialUserButton =findViewById(R.id.CommercialUser_Button);
+        commercialUserButton = findViewById(R.id.CommercialUser_Button);
 
 
         homeUserButton.setOnClickListener(new View.OnClickListener() {
 
 
             @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(UserType.this,AddNewMachine.class));
+            public void onClick(View v) {
+                startActivity(new Intent(UserType.this, AddNewMachine.class));
             }
         });
 
 
         commercialUserButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(UserType.this,CommercialType.class));
+            public void onClick(View v) {
+                startActivity(new Intent(UserType.this, CommercialType.class));
             }
         });
 

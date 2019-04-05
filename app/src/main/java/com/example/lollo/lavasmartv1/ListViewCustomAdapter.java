@@ -1,4 +1,5 @@
 package com.example.lollo.lavasmartv1;
+
 import android.content.Context;
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -9,11 +10,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ListViewCustomAdapter extends  BaseAdapter
-{
+public class ListViewCustomAdapter extends BaseAdapter {
 
-     Context context;
-     ArrayList<Machine> machines;
+    Context context;
+    ArrayList<Machine> machines;
 
     public ListViewCustomAdapter(Context context, ArrayList<Machine> machines) {
         this.context = context;
@@ -36,29 +36,25 @@ public class ListViewCustomAdapter extends  BaseAdapter
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent)
-    {
-        convertView = LayoutInflater.from(context).inflate(R.layout.rowlist,parent,false);
+    public View getView(int position, View convertView, ViewGroup parent) {
+        convertView = LayoutInflater.from(context).inflate(R.layout.rowlist, parent, false);
         TextView MachineName = convertView.findViewById(R.id.MachineName_TextView);
         TextView MachineLocation = convertView.findViewById(R.id.MachineLocation_TextView);
         TextView MachineStatus = convertView.findViewById(R.id.MachineStatus_TextView);
 
         String status = machines.get(position).getStatus();
 
-        if(status.equals("ON"))
-        {
+        if (status.equals("ON")) {
             MachineStatus.setTextColor(Color.GREEN);
             MachineStatus.setText("Status: " + status);
-        }
-        else if (status.equals("OFF"))
-        {
+        } else if (status.equals("OFF")) {
             MachineStatus.setTextColor(Color.RED);
             MachineStatus.setText("Status: " + status);
         }
 
 
         MachineName.setText(machines.get(position).getName());
-        MachineLocation.setText("Location: "+machines.get(position).getLocation());
+        MachineLocation.setText("Location: " + machines.get(position).getLocation());
 
 
         return convertView;

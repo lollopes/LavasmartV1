@@ -7,8 +7,8 @@ import com.google.firebase.database.IgnoreExtraProperties;
 @IgnoreExtraProperties
 public class Machine {
 
-    public String name ;
-    public String id ;
+    public String name;
+    public String id;
     public String location;
     public String status;
     public int start_time;
@@ -18,14 +18,14 @@ public class Machine {
     public Machine() {
         // Default constructor required for calls to DataSnapshot.getValue(User.class)
     }
-    public Machine(String name, String location,String status)
-    {
-        this.location=location;
-        this.name=name;
-        this.status=status;
+
+    public Machine(String name, String location, String status) {
+        this.location = location;
+        this.name = name;
+        this.status = status;
     }
 
-    public Machine(String status, int start_time, int stop_time, String qr,String location) {
+    public Machine(String status, int start_time, int stop_time, String qr, String location) {
         this.status = status;
         this.start_time = start_time;
         this.stop_time = stop_time;

@@ -10,7 +10,8 @@ import android.widget.Button;
 public class AddNewMachine extends AppCompatActivity {
 
 
-   private Button addNewMachine;
+    private Button addNewMachine;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,9 +21,8 @@ public class AddNewMachine extends AppCompatActivity {
 
         addNewMachine.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(AddNewMachine.this,MachineList.class));
+            public void onClick(View v) {
+                startActivity(new Intent(AddNewMachine.this, MachineList.class));
             }
         });
     }

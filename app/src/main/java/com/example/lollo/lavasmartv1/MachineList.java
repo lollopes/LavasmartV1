@@ -12,8 +12,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
-public class MachineList extends AppCompatActivity
-{
+public class MachineList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +22,10 @@ public class MachineList extends AppCompatActivity
         //Create Array List of Machine
         ArrayList<Machine> machinelist = new ArrayList<>();
         //Add dummy machine
-        machinelist.add(new Machine("Lorenzo Machine","summerhill_home","ON"));
-        machinelist.add(new Machine("Mario Machine","summerhill_building","OFF"));
+        machinelist.add(new Machine("Lorenzo Machine", "summerhill_home", "ON"));
+        machinelist.add(new Machine("Mario Machine", "summerhill_building", "OFF"));
 
-        ListViewCustomAdapter listViewCustomAdapter = new ListViewCustomAdapter(this,machinelist);
+        ListViewCustomAdapter listViewCustomAdapter = new ListViewCustomAdapter(this, machinelist);
         listview.setAdapter(listViewCustomAdapter);
 
     }

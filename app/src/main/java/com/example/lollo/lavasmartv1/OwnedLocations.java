@@ -8,24 +8,20 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class OwnedLocations extends AppCompatActivity
-{
+public class OwnedLocations extends AppCompatActivity {
     FloatingActionButton createLocationButton;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ownedlocations);
 
         createLocationButton = findViewById(R.id.AddLocationManager_Button);
 
-        createLocationButton.setOnClickListener(new View.OnClickListener()
-        {
+        createLocationButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(OwnedLocations.this,LocationInfo.class));
+            public void onClick(View v) {
+                startActivity(new Intent(OwnedLocations.this, LocationInfo.class));
 
             }
         });

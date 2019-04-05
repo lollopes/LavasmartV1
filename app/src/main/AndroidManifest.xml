@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LogInPage">
+        <activity
+            android:name=".LogInPage"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,19 +20,35 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".UserType" />
-        <activity android:name=".AddNewMachine" />
-        <activity android:name=".CommercialType" />
-        <activity android:name=".OwnedLocations" />
-        <activity android:name=".LocationInfo" />
-        <activity android:name=".MachineList" />
+        <activity
+            android:name=".UserType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddNewMachine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CommercialType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OwnedLocations"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LocationInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MachineList"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".AddNewMachineManager" />
-        <activity android:name=".MachineDetails"></activity>
+        <activity
+            android:name=".AddNewMachineManager"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MachineDetails"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

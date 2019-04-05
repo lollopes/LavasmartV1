@@ -14,30 +14,25 @@ public class AddNewMachineManager extends AppCompatActivity {
     FloatingActionButton addMachineManagerButton;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.addnewmachinemanager);
 
         addMachineManagerButton = findViewById(R.id.AddMachineManager_Button);
 
-        addMachineManagerButton.setOnClickListener(new View.OnClickListener()
-        {
+        addMachineManagerButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(AddNewMachineManager.this,AddNewMachine.class));
+            public void onClick(View v) {
+                startActivity(new Intent(AddNewMachineManager.this, AddNewMachine.class));
             }
         });
 
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
+    public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu,menu);
+        inflater.inflate(R.menu.menu, menu);
         return true;
     }
 }
