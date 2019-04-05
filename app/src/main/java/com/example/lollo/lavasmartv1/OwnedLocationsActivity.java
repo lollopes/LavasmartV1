@@ -1,27 +1,25 @@
 package com.example.lollo.lavasmartv1;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 
-public class OwnedLocations extends AppCompatActivity {
+public class OwnedLocationsActivity extends AppCompatActivity {
     FloatingActionButton createLocationButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ownedlocations);
+        setContentView(R.layout.activity_owned_locations);
 
         createLocationButton = findViewById(R.id.AddLocationManager_Button);
 
         createLocationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(OwnedLocations.this, LocationInfo.class));
+                startActivity(new Intent(OwnedLocationsActivity.this, LocationInfoActivity.class));
 
             }
         });

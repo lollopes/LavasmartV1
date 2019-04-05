@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LogInPage"
+            android:name=".LoginPageActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,22 +21,22 @@
         </activity>
 
         <activity
-            android:name=".UserType"
+            android:name=".UserTypeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AddNewMachine"
+            android:name=".AddMachineActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CommercialType"
+            android:name=".CommercialUserTypeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".OwnedLocations"
+            android:name=".OwnedLocationsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LocationInfo"
+            android:name=".LocationInfoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MachineList"
+            android:name=".MachineListActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -44,10 +44,10 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".AddNewMachineManager"
+            android:name=".AddMachineManagerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MachineDetails"
+            android:name=".MachineDetailsActivity"
             android:screenOrientation="portrait"></activity>
     </application>
 

@@ -19,12 +19,12 @@ public class TenantFragment extends DialogFragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
 
-        View view = inflater.inflate(R.layout.tenantfragment, container, false);
+        View view = inflater.inflate(R.layout.fragment_tenant, container, false);
         addLocationButton = view.findViewById(R.id.AddLocation_Button);
         addLocationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), MachineList.class));
+                startActivity(new Intent(getActivity(), MachineListActivity.class));
             }
         });
 

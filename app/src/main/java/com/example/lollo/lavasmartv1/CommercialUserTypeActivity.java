@@ -1,12 +1,12 @@
 package com.example.lollo.lavasmartv1;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class CommercialType extends AppCompatActivity {
+public class CommercialUserTypeActivity extends AppCompatActivity {
     Button tenant_button;
     Button manager_button;
 
@@ -14,7 +14,7 @@ public class CommercialType extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.commercialtype);
+        setContentView(R.layout.activity_commercial_user_type);
         tenant_button = findViewById(R.id.Tenant_Button);
         tenant_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,7 +30,7 @@ public class CommercialType extends AppCompatActivity {
         manager_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CommercialType.this, OwnedLocations.class));
+                startActivity(new Intent(CommercialUserTypeActivity.this, OwnedLocationsActivity.class));
             }
         });
 

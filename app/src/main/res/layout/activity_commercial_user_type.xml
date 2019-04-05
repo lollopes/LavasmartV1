@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserType">
+    tools:context=".UserTypeActivity">
 
     <LinearLayout
         android:layout_width="341dp"
@@ -16,18 +15,18 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/HomeUser_Button"
+            android:id="@+id/Tenant_Button"
             style="@style/Widget.AppCompat.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#5cb5ff"
-            android:text="Home User" />
+            android:text="TENANT" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="If you own a washing machine at home."
+            android:text="Click here to add a location with the code given by your manager."
 
             android:textAlignment="center"
             android:textColor="@color/common_google_signin_btn_text_dark_focused" />
@@ -37,27 +36,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="310dp"
         android:layout_marginRight="100dp"
-        android:layout_marginBottom="120dp"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/CommercialUser_Button"
+            android:id="@+id/Manager_Button"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#5cb5ff"
             android:shape="oval"
-            android:text="COMMERCIAL USER" />
+            android:text="MANAGER" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="If you are a tenant or a building manager"
+            android:text="Click here to create a new location and add machines to it."
             android:textAlignment="center"
             android:textColor="@color/common_google_signin_btn_text_dark_focused" />
     </LinearLayout>

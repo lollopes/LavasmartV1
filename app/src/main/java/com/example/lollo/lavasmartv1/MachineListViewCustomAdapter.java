@@ -10,12 +10,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ListViewCustomAdapter extends BaseAdapter {
+public class MachineListViewCustomAdapter extends BaseAdapter {
 
     Context context;
     ArrayList<Machine> machines;
 
-    public ListViewCustomAdapter(Context context, ArrayList<Machine> machines) {
+    public MachineListViewCustomAdapter(Context context, ArrayList<Machine> machines) {
         this.context = context;
         this.machines = machines;
     }
