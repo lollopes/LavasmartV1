@@ -6,12 +6,11 @@
     tools:context=".UserTypeActivity">
 
     <LinearLayout
-        android:layout_width="341dp"
-        android:layout_height="106dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginRight="100dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
         android:orientation="vertical">
 
         <Button
@@ -27,29 +26,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="If you own a washing machine at home."
-
-            android:textAlignment="center"
             android:textColor="@color/common_google_signin_btn_text_dark_focused" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="310dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="120dp"
-        android:orientation="vertical">
 
         <Button
             android:id="@+id/CommercialUser_Button"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
             android:background="#5cb5ff"
-            android:shape="oval"
             android:text="COMMERCIAL USER" />
 
         <TextView
@@ -57,7 +42,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="If you are a tenant or a building manager"
-            android:textAlignment="center"
             android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
     </LinearLayout>
+
 </RelativeLayout>

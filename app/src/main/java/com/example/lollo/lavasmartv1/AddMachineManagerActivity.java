@@ -22,7 +22,7 @@ public class AddMachineManagerActivity extends AppCompatActivity {
         addMachineManagerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AddMachineManagerActivity.this, AddMachineActivity.class));
+                startActivity(new Intent(AddMachineManagerActivity.this, LavaAddMachineActivity.class));
             }
         });
 

@@ -25,7 +25,7 @@ public class UserTypeActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(UserTypeActivity.this, AddMachineActivity.class));
+                startActivity(new Intent(UserTypeActivity.this, LavaAddMachineActivity.class));
             }
         });
 

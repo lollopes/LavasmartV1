@@ -24,7 +24,7 @@
             android:name=".UserTypeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AddMachineActivity"
+            android:name=".LavaAddMachineActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".CommercialUserTypeActivity"

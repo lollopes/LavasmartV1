@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class AddMachineActivity extends AppCompatActivity {
+public class LavaAddMachineActivity extends AppCompatActivity {
 
 
     private Button addNewMachine;
@@ -14,14 +14,14 @@ public class AddMachineActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_machine);
+        setContentView(R.layout.activity_lava_add_machine);
 
         addNewMachine = findViewById(R.id.AddMachine_Button);
 
         addNewMachine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AddMachineActivity.this, MachineListActivity.class));
+                startActivity(new Intent(LavaAddMachineActivity.this, MachineListActivity.class));
             }
         });
     }
